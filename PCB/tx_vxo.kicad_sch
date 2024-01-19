@@ -6,7 +6,7 @@
 
   (title_block
     (title "Party Line 80")
-    (date "2023-12-14")
+    (date "2024-01-13")
     (rev "A")
     (company "Etherkit")
     (comment 1 "Creative Commons CC BY-SA 4.0")
@@ -2644,7 +2644,7 @@
   (symbol (lib_id "Device:C_Small") (at 106.934 182.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 019535b4-7a85-4e1e-be84-5314852fe2c7)
-    (property "Reference" "C6" (at 108.966 177.546 90)
+    (property "Reference" "C39" (at 108.966 177.546 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 109.728 179.832 90)
@@ -2660,9 +2660,6 @@
     (pin "1" (uuid 83eaca40-98a7-4131-a2dd-879d5d00cab7))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C39") (unit 1)
         )
@@ -2673,7 +2670,7 @@
   (symbol (lib_id "Device:R_US") (at 40.64 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02817362-a308-4273-8088-132a80a54c63)
-    (property "Reference" "R2" (at 40.64 64.77 90)
+    (property "Reference" "R39" (at 40.64 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3k" (at 40.64 67.31 90)
@@ -2689,9 +2686,6 @@
     (pin "1" (uuid f0544524-5573-409a-ae79-72b70468dba3))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R39") (unit 1)
         )
@@ -2803,7 +2797,7 @@
   (symbol (lib_id "Device:C_Small") (at 154.94 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0908b1e0-ed3f-4007-b900-63825dd0736d)
-    (property "Reference" "C6" (at 157.48 55.88 0)
+    (property "Reference" "C43" (at 157.48 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1.5n" (at 157.48 58.42 0)
@@ -2819,9 +2813,6 @@
     (pin "1" (uuid e7cf9e27-9440-47d1-934e-3f84613aa361))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C43") (unit 1)
         )
@@ -2832,7 +2823,7 @@
   (symbol (lib_id "Device:R_US") (at 87.63 162.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a5f8cd7-27eb-4464-90ab-d2cac3096ead)
-    (property "Reference" "R2" (at 87.63 156.21 90)
+    (property "Reference" "R50" (at 87.63 156.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470" (at 87.63 158.75 90)
@@ -2848,9 +2839,6 @@
     (pin "1" (uuid 8e9fd52a-c827-4f32-b8ce-6c2301a3fd89))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R50") (unit 1)
         )
@@ -2911,7 +2899,7 @@
   (symbol (lib_id "Device:R_US") (at 101.6 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0bb8b1a4-9206-453c-ad1b-d2377185c6ae)
-    (property "Reference" "R2" (at 104.14 190.5 0)
+    (property "Reference" "R52" (at 104.14 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 104.14 193.04 0)
@@ -2927,9 +2915,6 @@
     (pin "1" (uuid 8f973bb7-90ed-4692-baf1-a109d8c66211))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R52") (unit 1)
         )
@@ -2965,7 +2950,7 @@
   (symbol (lib_id "Device:C_Small") (at 60.96 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dda6d72-5bac-46a5-9933-6f589866da58)
-    (property "Reference" "C6" (at 63.5 48.26 0)
+    (property "Reference" "C32" (at 63.5 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 63.5 50.8 0)
@@ -2981,9 +2966,6 @@
     (pin "1" (uuid e56d672c-e223-4fb4-8f1c-194ca68bc993))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C32") (unit 1)
         )
@@ -2994,7 +2976,7 @@
   (symbol (lib_id "Device:R_US") (at 22.86 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1011ca86-0560-4c0a-b4ec-10cdb83d1feb)
-    (property "Reference" "R2" (at 25.4 149.86 0)
+    (property "Reference" "R35" (at 25.4 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 25.4 152.4 0)
@@ -3010,9 +2992,6 @@
     (pin "1" (uuid b2660387-fcb4-4e3d-a123-214ee9d2c5cc))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R35") (unit 1)
         )
@@ -3023,7 +3002,7 @@
   (symbol (lib_id "Device:Q_NPN_EBC") (at 45.72 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 117d2408-cc9b-4e86-9618-a4a9704f089f)
-    (property "Reference" "Q1" (at 50.8 82.55 0)
+    (property "Reference" "Q14" (at 50.8 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N4401" (at 50.8 85.09 0)
@@ -3040,9 +3019,6 @@
     (pin "1" (uuid 74642e4c-2379-4c82-96a0-99e840fb9627))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q1") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q14") (unit 1)
         )
@@ -3079,7 +3055,7 @@
   (symbol (lib_id "Device:R_US") (at 30.48 37.973 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15a67436-596d-45d5-a243-e4154a6c2a27)
-    (property "Reference" "R2" (at 33.02 36.703 0)
+    (property "Reference" "R36" (at 33.02 36.703 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2k" (at 33.02 39.243 0)
@@ -3095,9 +3071,6 @@
     (pin "1" (uuid 295d4288-01a5-4eba-a2f9-629ee805dd94))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R36") (unit 1)
         )
@@ -3108,7 +3081,7 @@
   (symbol (lib_id "Device:C_Small") (at 40.894 60.96 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15cbcdcb-948f-4f08-bad8-5b1a840bf838)
-    (property "Reference" "C6" (at 42.926 54.864 90)
+    (property "Reference" "C30" (at 42.926 54.864 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 43.434 57.15 90)
@@ -3124,9 +3097,6 @@
     (pin "1" (uuid 9efa93e1-6fcb-4438-b978-bdf9462f724a))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C30") (unit 1)
         )
@@ -3188,7 +3158,7 @@
   (symbol (lib_id "Device:R_US") (at 68.326 22.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d27c3a9-0a1a-411f-a7f0-31f09e3f769e)
-    (property "Reference" "R2" (at 68.326 18.288 90)
+    (property "Reference" "R45" (at 68.326 18.288 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 68.326 20.32 90)
@@ -3204,9 +3174,6 @@
     (pin "1" (uuid 30b13baa-af3d-459e-9287-0ce4aad30b73))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R45") (unit 1)
         )
@@ -3217,7 +3184,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 157.48 118.872 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e4e2895-caea-4684-b118-449b0fbf95aa)
-    (property "Reference" "C17" (at 160.02 117.1702 0)
+    (property "Reference" "C44" (at 160.02 117.1702 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 160.02 119.7102 0)
@@ -3233,9 +3200,6 @@
     (pin "2" (uuid 6e334b3e-13aa-4222-92f3-bd382d049254))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C17") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C44") (unit 1)
         )
@@ -3322,7 +3286,7 @@
   (symbol (lib_id "Device:R_US") (at 81.28 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27bca3ca-73a3-4112-9df4-e333565ef962)
-    (property "Reference" "R2" (at 83.82 63.5 0)
+    (property "Reference" "R49" (at 83.82 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 83.82 66.04 0)
@@ -3338,9 +3302,6 @@
     (pin "1" (uuid 9c0f6d89-6740-463c-acf8-205185235397))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R49") (unit 1)
         )
@@ -3376,7 +3337,7 @@
   (symbol (lib_id "Device:R_US") (at 101.6 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 288adc2f-f53d-4485-8cb3-bb7597d6acf7)
-    (property "Reference" "R2" (at 104.14 137.16 0)
+    (property "Reference" "R51" (at 104.14 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 104.14 139.7 0)
@@ -3392,9 +3353,6 @@
     (pin "1" (uuid 1fe29940-d3cc-445d-8228-f46ee2571dba))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R51") (unit 1)
         )
@@ -3481,7 +3439,7 @@
   (symbol (lib_id "Device:Q_NMOS_SGD") (at 30.48 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3394c1c5-7305-4f77-b114-5c5765426c39)
-    (property "Reference" "Q9" (at 24.384 159.004 0)
+    (property "Reference" "Q13" (at 24.384 159.004 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7000" (at 24.384 161.29 0)
@@ -3498,9 +3456,6 @@
     (pin "3" (uuid d49f72a2-a034-45d2-b12d-4c5cf78cba27))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q9") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q13") (unit 1)
         )
@@ -3511,7 +3466,7 @@
   (symbol (lib_id "Device:R_US") (at 33.02 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33bdde7a-20b9-4efe-8b27-37ab35fff64c)
-    (property "Reference" "R2" (at 35.56 96.52 0)
+    (property "Reference" "R38" (at 35.56 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2k" (at 35.56 99.06 0)
@@ -3527,9 +3482,6 @@
     (pin "1" (uuid 778e33de-4a0e-4156-9688-b562d2bb8bb7))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R38") (unit 1)
         )
@@ -3641,7 +3593,7 @@
   (symbol (lib_id "Device:R_US") (at 176.53 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f637a71-34cf-4c6f-bad9-f4066c2a7b6e)
-    (property "Reference" "R2" (at 176.53 135.89 90)
+    (property "Reference" "R61" (at 176.53 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 176.53 138.43 90)
@@ -3657,9 +3609,6 @@
     (pin "1" (uuid 7c7725c3-090b-4e98-b5d1-dbd5c7b024d2))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R61") (unit 1)
         )
@@ -3670,7 +3619,7 @@
   (symbol (lib_id "Device:C_Small") (at 115.316 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4110bbee-0272-4edf-9b4d-71479eca1204)
-    (property "Reference" "C6" (at 117.856 40.64 0)
+    (property "Reference" "C40" (at 117.856 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 117.856 43.18 0)
@@ -3686,9 +3635,6 @@
     (pin "1" (uuid c8b297f5-0dfe-4326-b661-832f68bbc18f))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C40") (unit 1)
         )
@@ -3805,7 +3751,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3") (at 22.606 58.42 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fa4d384-ca4b-49f8-8ab7-41902ea65d29)
-    (property "Reference" "J1" (at 24.384 64.008 0)
+    (property "Reference" "J2" (at 24.384 64.008 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Key" (at 24.384 66.548 0)
@@ -3822,9 +3768,6 @@
     (pin "S" (uuid b8a61dd9-aee1-4397-bcf5-220fb2b4eb68))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "J1") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "J2") (unit 1)
         )
@@ -3861,7 +3804,7 @@
   (symbol (lib_id "Device:R_US") (at 20.32 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52966c7b-f198-4cf0-883b-5fcdca3bc6b3)
-    (property "Reference" "R2" (at 22.86 27.94 0)
+    (property "Reference" "R34" (at 22.86 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 22.86 30.48 0)
@@ -3877,9 +3820,6 @@
     (pin "1" (uuid b06bea13-b227-4680-a464-b682140eaa69))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R34") (unit 1)
         )
@@ -3890,7 +3830,7 @@
   (symbol (lib_id "Device:R_US") (at 148.59 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5361da38-f2a8-4bf3-9235-5c84bcdbe00b)
-    (property "Reference" "R2" (at 148.59 107.95 90)
+    (property "Reference" "R57" (at 148.59 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 148.59 110.49 90)
@@ -3906,9 +3846,6 @@
     (pin "1" (uuid 24a179c6-b07e-421f-80dc-7b8114d0bfa7))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R57") (unit 1)
         )
@@ -3944,7 +3881,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.1 68.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 572feaf4-13ae-431a-a35c-9acfd66a458e)
-    (property "Reference" "C6" (at 167.64 68.58 0)
+    (property "Reference" "C46" (at 167.64 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "82p" (at 167.64 71.12 0)
@@ -3960,9 +3897,6 @@
     (pin "1" (uuid 7d18b6e3-2ac1-4aab-abdd-9662f232a002))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C46") (unit 1)
         )
@@ -3973,7 +3907,7 @@
   (symbol (lib_id "Device:D") (at 30.48 45.593 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59ae8480-21ce-4086-a78c-ad499773c840)
-    (property "Reference" "D5" (at 24.384 44.323 90)
+    (property "Reference" "D15" (at 24.384 44.323 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (at 20.828 46.863 90)
@@ -3995,9 +3929,6 @@
     (pin "2" (uuid 1c2867f6-edc3-43a5-887d-6caa992eb0e0))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "D5") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "D15") (unit 1)
         )
@@ -4033,7 +3964,7 @@
   (symbol (lib_id "Device:C_Small") (at 71.12 58.928 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5acdb10c-3422-4548-b7a3-19b98f4627c0)
-    (property "Reference" "C6" (at 73.152 52.832 90)
+    (property "Reference" "C35" (at 73.152 52.832 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 73.66 55.118 90)
@@ -4049,9 +3980,6 @@
     (pin "1" (uuid e0e47cbd-6e57-4325-9b08-d9f729b39864))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C35") (unit 1)
         )
@@ -4062,7 +3990,7 @@
   (symbol (lib_id "Device:R_US") (at 48.26 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5acfae40-0d60-48c2-9135-26dd6aea71da)
-    (property "Reference" "R2" (at 50.8 99.06 0)
+    (property "Reference" "R40" (at 50.8 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 50.8 101.6 0)
@@ -4078,9 +4006,6 @@
     (pin "1" (uuid 20f8524d-356b-4f9c-a19a-e5e783ba1dce))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R40") (unit 1)
         )
@@ -4091,7 +4016,7 @@
   (symbol (lib_id "Device:R_US") (at 114.3 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5add438e-9347-469f-847d-804e78b68317)
-    (property "Reference" "R2" (at 116.84 190.5 0)
+    (property "Reference" "R53" (at 116.84 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 116.84 193.04 0)
@@ -4107,9 +4032,6 @@
     (pin "1" (uuid 25a842a8-29cf-47f2-a96d-30b3a5d4f641))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R53") (unit 1)
         )
@@ -4145,7 +4067,7 @@
   (symbol (lib_id "Device:R_US") (at 120.65 182.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60312456-a419-4471-85d9-73d60da92540)
-    (property "Reference" "R2" (at 120.65 176.53 90)
+    (property "Reference" "R55" (at 120.65 176.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "36" (at 120.65 179.07 90)
@@ -4161,9 +4083,6 @@
     (pin "1" (uuid b683f1f4-c915-468d-b41a-7d189fff3845))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R55") (unit 1)
         )
@@ -4174,7 +4093,7 @@
   (symbol (lib_id "Device:Q_NPN_EBC") (at 73.66 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a5e9fc0-a387-488b-a0cf-c07c602741ac)
-    (property "Reference" "Q1" (at 78.74 151.13 0)
+    (property "Reference" "Q15" (at 78.74 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N4401" (at 78.74 153.67 0)
@@ -4191,9 +4110,6 @@
     (pin "1" (uuid b6f99014-6499-42c6-889f-85bcdb58bebe))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q1") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q15") (unit 1)
         )
@@ -4255,7 +4171,7 @@
   (symbol (lib_id "Device:R_US") (at 116.84 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d762d91-9826-4e37-b4d1-5e0edeecf65d)
-    (property "Reference" "R2" (at 119.38 116.84 0)
+    (property "Reference" "R54" (at 119.38 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 119.38 119.38 0)
@@ -4271,9 +4187,6 @@
     (pin "1" (uuid 6b903a7b-26e8-436a-8d95-709de05fc3eb))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R54") (unit 1)
         )
@@ -4309,7 +4222,7 @@
   (symbol (lib_id "Device:C_Small") (at 106.68 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7227680e-f6c2-4195-909a-6ea9833a7f0f)
-    (property "Reference" "C6" (at 109.22 147.32 0)
+    (property "Reference" "C37" (at 109.22 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 109.22 149.86 0)
@@ -4325,9 +4238,6 @@
     (pin "1" (uuid 0aab6208-474c-4fac-b02a-5b0ce4573c9d))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C37") (unit 1)
         )
@@ -4389,7 +4299,7 @@
   (symbol (lib_id "Device:Q_PNP_EBC") (at 30.48 25.4 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 742e1206-9d25-4373-9c3e-f3f9a9eb3c96)
-    (property "Reference" "Q7" (at 28.448 17.018 90)
+    (property "Reference" "Q12" (at 28.448 17.018 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N4403" (at 26.67 19.558 90)
@@ -4406,9 +4316,6 @@
     (pin "1" (uuid ceba86fb-c45e-4791-8f4a-74e04af4de31))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q7") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q12") (unit 1)
         )
@@ -4419,7 +4326,7 @@
   (symbol (lib_id "Device:R_US") (at 54.356 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74c5cc4f-621b-41d2-b494-385ad37f0e86)
-    (property "Reference" "R2" (at 57.15 38.1 0)
+    (property "Reference" "R43" (at 57.15 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 57.15 40.64 0)
@@ -4435,9 +4342,6 @@
     (pin "1" (uuid 03791c3d-6dc7-43dc-a1e9-4f9314c6dcd1))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R43") (unit 1)
         )
@@ -4499,7 +4403,7 @@
   (symbol (lib_id "Device:C_Small") (at 53.34 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78b8ea94-ac9f-408f-8fa8-91b0f105d195)
-    (property "Reference" "C6" (at 55.372 87.884 90)
+    (property "Reference" "C31" (at 55.372 87.884 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 55.88 90.17 90)
@@ -4515,9 +4419,6 @@
     (pin "1" (uuid 8169f6f6-8d71-4a92-b607-f96aeac5d896))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C31") (unit 1)
         )
@@ -4528,7 +4429,7 @@
   (symbol (lib_id "Device:Q_NMOS_SGD") (at 111.76 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79201252-e2e3-4346-9acb-17cc1797a25f)
-    (property "Reference" "Q9" (at 105.664 65.024 0)
+    (property "Reference" "Q18" (at 105.664 65.024 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7000" (at 105.664 67.31 0)
@@ -4545,9 +4446,6 @@
     (pin "3" (uuid 737f3d9f-37eb-49b5-a02d-dda96e1e4051))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q9") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q18") (unit 1)
         )
@@ -4683,7 +4581,7 @@
   (symbol (lib_id "Device:C_Small") (at 157.48 157.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 878c6640-680a-4221-b3ed-699dee7daf89)
-    (property "Reference" "C6" (at 159.512 152.146 90)
+    (property "Reference" "C45" (at 159.512 152.146 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 160.274 154.432 90)
@@ -4699,9 +4597,6 @@
     (pin "1" (uuid c48cb56f-7730-4228-bc42-55ac5e36797a))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C45") (unit 1)
         )
@@ -4712,7 +4607,7 @@
   (symbol (lib_id "Device:R_US") (at 167.64 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87fa5a17-45c6-4d32-9c62-8ad4e443997a)
-    (property "Reference" "R2" (at 170.18 119.38 0)
+    (property "Reference" "R60" (at 170.18 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 170.18 121.92 0)
@@ -4728,9 +4623,6 @@
     (pin "1" (uuid 580864aa-b5d6-41f0-abf3-2c341cb0ac7e))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R60") (unit 1)
         )
@@ -4741,7 +4633,7 @@
   (symbol (lib_id "Device:D") (at 22.86 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ba645a9-2a98-4f74-8108-e91a546ab198)
-    (property "Reference" "D5" (at 25.4 177.8 90)
+    (property "Reference" "D8" (at 25.4 177.8 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (at 25.4 180.34 90)
@@ -4763,9 +4655,6 @@
     (pin "2" (uuid b0770159-b3bf-46d4-9d83-d7d62bb7181c))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "D5") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "D8") (unit 1)
         )
@@ -4877,7 +4766,7 @@
   (symbol (lib_id "Device:C_Small") (at 213.36 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95917921-9cd6-4e35-bc34-af74448ce08a)
-    (property "Reference" "C6" (at 215.9 55.88 0)
+    (property "Reference" "C53" (at 215.9 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "270p" (at 215.9 58.42 0)
@@ -4893,9 +4782,6 @@
     (pin "1" (uuid 0463d7db-10b5-4265-bf53-4503b0c2a8d5))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C53") (unit 1)
         )
@@ -4906,7 +4792,7 @@
   (symbol (lib_id "Device:C_Small") (at 63.5 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9619d105-634d-4e20-be8c-d229e8c5cf61)
-    (property "Reference" "C6" (at 66.04 157.48 0)
+    (property "Reference" "C33" (at 66.04 157.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "560p" (at 66.04 160.02 0)
@@ -4922,9 +4808,6 @@
     (pin "1" (uuid 72178e08-da55-487f-9c50-64925b9f062a))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C33") (unit 1)
         )
@@ -4985,7 +4868,7 @@
   (symbol (lib_id "Device:C_Small") (at 187.96 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a8d6dc0-8650-41a5-9f37-4b99e0086203)
-    (property "Reference" "C6" (at 190.5 55.88 0)
+    (property "Reference" "C51" (at 190.5 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n" (at 190.5 58.42 0)
@@ -5001,9 +4884,6 @@
     (pin "1" (uuid 915203b9-8b2a-4d6f-af0f-f120dcb3844b))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C51") (unit 1)
         )
@@ -5014,7 +4894,7 @@
   (symbol (lib_id "Device:C_Small") (at 38.1 28.956 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9afb5a5c-f715-4071-9b2a-7dd443ee57bd)
-    (property "Reference" "C6" (at 40.64 28.956 0)
+    (property "Reference" "C28" (at 40.64 28.956 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 40.64 31.496 0)
@@ -5030,9 +4910,6 @@
     (pin "1" (uuid 6ad934d5-67b8-4855-99e3-dc19e0955f11))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C28") (unit 1)
         )
@@ -5043,7 +4920,7 @@
   (symbol (lib_id "Device:R_US") (at 76.2 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ccd266c-3cb7-404e-9f3c-2ad139a9a927)
-    (property "Reference" "R2" (at 78.74 129.54 0)
+    (property "Reference" "R46" (at 78.74 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 78.74 132.08 0)
@@ -5059,9 +4936,6 @@
     (pin "1" (uuid 83b36168-0a6b-4754-a5fc-513b15bad169))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R46") (unit 1)
         )
@@ -5072,7 +4946,7 @@
   (symbol (lib_id "Device:R_US") (at 166.37 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e770411-12f7-4310-bd15-18da5da82f4f)
-    (property "Reference" "R2" (at 168.91 162.56 0)
+    (property "Reference" "R59" (at 168.91 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330" (at 168.91 165.1 0)
@@ -5088,9 +4962,6 @@
     (pin "1" (uuid 3440ac70-c024-47ca-ad2d-f0775dba907c))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R59") (unit 1)
         )
@@ -5101,7 +4972,7 @@
   (symbol (lib_id "Device:Q_NPN_EBC") (at 99.06 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a00f6d3d-9fce-41d6-86d6-7f220feaea63)
-    (property "Reference" "Q1" (at 104.14 161.29 0)
+    (property "Reference" "Q16" (at 104.14 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N4401" (at 104.14 163.83 0)
@@ -5118,9 +4989,6 @@
     (pin "1" (uuid a416bf89-66d9-4a85-9418-8e50b254e173))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q1") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q16") (unit 1)
         )
@@ -5131,7 +4999,7 @@
   (symbol (lib_id "Device:Q_NMOS_SGD") (at 101.6 58.928 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a02e8349-ebb6-49ea-b9cd-859a1dbf6b71)
-    (property "Reference" "Q9" (at 95.504 52.832 0)
+    (property "Reference" "Q17" (at 95.504 52.832 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7000" (at 95.504 55.118 0)
@@ -5148,9 +5016,6 @@
     (pin "3" (uuid 6331149b-e806-4012-b641-5c4f9c042c4f))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q9") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q17") (unit 1)
         )
@@ -5161,7 +5026,7 @@
   (symbol (lib_id "Device:C_Small") (at 63.5 167.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a166b5d8-08ed-40ff-b83c-f637bfe8de11)
-    (property "Reference" "C6" (at 66.04 167.64 0)
+    (property "Reference" "C34" (at 66.04 167.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "560p" (at 66.04 170.18 0)
@@ -5177,9 +5042,6 @@
     (pin "1" (uuid 9fb076f3-4554-47d0-9338-dc0a157e4615))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C34") (unit 1)
         )
@@ -5190,7 +5052,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a344ed68-6b25-4569-86b4-95bf91a3c772)
-    (property "Reference" "C6" (at 177.8 55.88 0)
+    (property "Reference" "C49" (at 177.8 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "270p" (at 177.8 58.42 0)
@@ -5206,9 +5068,6 @@
     (pin "1" (uuid cd8ef6c9-5006-49ee-8bff-d06ebecd7c37))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C49") (unit 1)
         )
@@ -5219,7 +5078,7 @@
   (symbol (lib_id "Device:C_Small") (at 27.94 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3ac7787-4ff4-4319-9054-0d39ae223353)
-    (property "Reference" "C6" (at 29.972 77.724 90)
+    (property "Reference" "C27" (at 29.972 77.724 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 30.48 80.01 90)
@@ -5235,9 +5094,6 @@
     (pin "1" (uuid 699c3002-5a69-4ddb-8b6b-6ca0c3af446c))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C27") (unit 1)
         )
@@ -5248,7 +5104,7 @@
   (symbol (lib_id "Device:C_Small") (at 106.68 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a44f8594-477e-4c83-91db-5196d92aebe5)
-    (property "Reference" "C6" (at 108.712 167.386 90)
+    (property "Reference" "C38" (at 108.712 167.386 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 109.474 169.672 90)
@@ -5264,9 +5120,6 @@
     (pin "1" (uuid 289c3ee0-ee51-43c9-a20a-abe3bc2ef603))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C38") (unit 1)
         )
@@ -5277,7 +5130,7 @@
   (symbol (lib_id "Device:C_Small") (at 200.66 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5755fd2-fd13-470f-95d5-2de5cd988bfe)
-    (property "Reference" "C6" (at 203.2 55.88 0)
+    (property "Reference" "C52" (at 203.2 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n" (at 203.2 58.42 0)
@@ -5293,9 +5146,6 @@
     (pin "1" (uuid c11f3e02-800c-414a-ab51-f99b0574759d))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C52") (unit 1)
         )
@@ -5306,7 +5156,7 @@
   (symbol (lib_id "Device:D") (at 165.1 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6967758-cf4d-42de-9212-16d9ae6456d6)
-    (property "Reference" "D5" (at 159.004 88.9 90)
+    (property "Reference" "D11" (at 159.004 88.9 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (at 155.448 91.44 90)
@@ -5328,9 +5178,6 @@
     (pin "2" (uuid cf21d81f-8dc3-4e1f-bce7-728a90149d19))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "D5") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "D11") (unit 1)
         )
@@ -5341,7 +5188,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.1 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7a3bed5-4735-4937-9266-1ac7a6fdca2a)
-    (property "Reference" "C6" (at 159.004 147.32 0)
+    (property "Reference" "C47" (at 159.004 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 157.734 149.606 0)
@@ -5357,9 +5204,6 @@
     (pin "1" (uuid dd0a10ef-bbd6-4262-b09c-c79634ace22a))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C47") (unit 1)
         )
@@ -5370,7 +5214,7 @@
   (symbol (lib_id "Device:Q_NMOS_SGD") (at 122.682 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa0f2c9f-bbc0-401d-9c32-e79010c2f610)
-    (property "Reference" "Q9" (at 116.586 77.724 0)
+    (property "Reference" "Q19" (at 116.586 77.724 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7000" (at 116.586 80.01 0)
@@ -5387,9 +5231,6 @@
     (pin "3" (uuid 36818461-69aa-4370-ac15-4aaee27f0989))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q9") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q19") (unit 1)
         )
@@ -5425,7 +5266,7 @@
   (symbol (lib_id "Device:R_US") (at 76.2 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac99b800-e8ab-46a1-8755-c41c5427ff01)
-    (property "Reference" "R2" (at 78.74 167.64 0)
+    (property "Reference" "R47" (at 78.74 167.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470" (at 78.74 170.18 0)
@@ -5441,9 +5282,6 @@
     (pin "1" (uuid 305bec9d-d9d6-4922-9150-8eae4e2f2059))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R47") (unit 1)
         )
@@ -5454,7 +5292,7 @@
   (symbol (lib_id "Device:R_US") (at 127 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acf91fc4-5b1f-44a5-b53a-a1dc535c79f5)
-    (property "Reference" "R2" (at 129.54 190.5 0)
+    (property "Reference" "R56" (at 129.54 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 129.54 193.04 0)
@@ -5470,9 +5308,6 @@
     (pin "1" (uuid bd9e7651-d2b5-4a37-9d89-86ffcc2c8366))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R56") (unit 1)
         )
@@ -5508,7 +5343,7 @@
   (symbol (lib_id "Device:R_US") (at 53.34 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ade96498-8373-4ffe-827b-7d90f63da78e)
-    (property "Reference" "R2" (at 55.88 134.62 0)
+    (property "Reference" "R41" (at 55.88 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 55.88 137.16 0)
@@ -5524,9 +5359,6 @@
     (pin "1" (uuid 5418d0fa-ef3e-4a41-9bde-8c86a54f4165))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R41") (unit 1)
         )
@@ -5562,7 +5394,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.768 157.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4cf8fb0-0a4e-4907-b05f-3aa1fbb0efd9)
-    (property "Reference" "C6" (at 177.8 152.146 90)
+    (property "Reference" "C50" (at 177.8 152.146 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 178.562 154.432 90)
@@ -5578,9 +5410,6 @@
     (pin "1" (uuid 355b8fa1-652e-4e40-b42c-3687d58d852e))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C50") (unit 1)
         )
@@ -5591,7 +5420,7 @@
   (symbol (lib_id "Device:R_US") (at 81.28 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b60f0df1-3308-4e3b-89b5-44968c09fc18)
-    (property "Reference" "R2" (at 83.82 48.26 0)
+    (property "Reference" "R48" (at 83.82 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 83.82 50.8 0)
@@ -5607,9 +5436,6 @@
     (pin "1" (uuid 649acf9c-4061-43de-aca0-5b4e7ce26bc9))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R48") (unit 1)
         )
@@ -5671,7 +5497,7 @@
   (symbol (lib_id "Device:R_US") (at 158.75 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0b0fa8c-7a50-4c1c-83ab-4a16ecb6824b)
-    (property "Reference" "R2" (at 158.75 135.89 90)
+    (property "Reference" "R58" (at 158.75 135.89 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 158.75 138.43 90)
@@ -5687,9 +5513,6 @@
     (pin "1" (uuid 53d8fefc-ed45-46d0-8621-78f2bf27a954))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R58") (unit 1)
         )
@@ -5725,7 +5548,7 @@
   (symbol (lib_id "Device:C_Small") (at 81.28 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c34f3f8a-dd41-4d7c-89f0-a763af8c817b)
-    (property "Reference" "C6" (at 83.82 139.7 0)
+    (property "Reference" "C36" (at 83.82 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 83.82 142.24 0)
@@ -5741,9 +5564,6 @@
     (pin "1" (uuid 9b4b537b-f32c-497d-870a-59d1d4973e3f))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C36") (unit 1)
         )
@@ -5754,7 +5574,7 @@
   (symbol (lib_id "Device:R_US") (at 33.02 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c73485da-e603-4d6b-8782-fc0fe053d265)
-    (property "Reference" "R2" (at 35.56 76.2 0)
+    (property "Reference" "R37" (at 35.56 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1.5k" (at 35.56 78.74 0)
@@ -5770,9 +5590,6 @@
     (pin "1" (uuid 1268e108-d94a-43da-b708-9ae01e4fae57))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R37") (unit 1)
         )
@@ -5808,7 +5625,7 @@
   (symbol (lib_id "Device:C_Small") (at 170.18 147.32 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9e0eb00-32fa-49db-a7a8-a9e38ee787b3)
-    (property "Reference" "C6" (at 172.72 147.32 0)
+    (property "Reference" "C48" (at 172.72 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 172.72 149.86 0)
@@ -5824,9 +5641,6 @@
     (pin "1" (uuid ab5afe06-76d7-4e4f-ac15-17e847a707b9))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C48") (unit 1)
         )
@@ -5862,7 +5676,7 @@
   (symbol (lib_id "Device:D") (at 170.18 90.17 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb4105d2-76e3-4ae2-a794-88fb209e792c)
-    (property "Reference" "D5" (at 172.466 89.154 90)
+    (property "Reference" "D12" (at 172.466 89.154 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148" (at 172.212 91.44 90)
@@ -5884,9 +5698,6 @@
     (pin "2" (uuid a5218816-14fc-4193-87bb-9ad7238c8f9a))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "D5") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "D12") (unit 1)
         )
@@ -6000,7 +5811,7 @@
   (symbol (lib_id "Device:C_Small") (at 129.54 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0c78c81-2d37-4588-b03a-123e33fa8a63)
-    (property "Reference" "C6" (at 132.08 55.88 0)
+    (property "Reference" "C41" (at 132.08 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "560p" (at 132.08 58.42 0)
@@ -6016,9 +5827,6 @@
     (pin "1" (uuid bd3afafd-3f87-4301-aba0-49d1e73a4e04))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C41") (unit 1)
         )
@@ -6105,7 +5913,7 @@
   (symbol (lib_id "Device:C_Small") (at 139.7 50.8 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid deabb606-86d9-421f-825e-3fb7aa37d333)
-    (property "Reference" "C6" (at 141.986 54.102 90)
+    (property "Reference" "C42" (at 141.986 54.102 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "360p" (at 142.748 56.388 90)
@@ -6121,9 +5929,6 @@
     (pin "1" (uuid 9837d6f6-f67d-4a93-8c20-1780355e272f))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "C6") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "C42") (unit 1)
         )
@@ -6184,7 +5989,7 @@
   (symbol (lib_id "Device:R_US") (at 53.34 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8f87efc-391f-47fd-99fd-863ed50dff3c)
-    (property "Reference" "R2" (at 55.88 162.56 0)
+    (property "Reference" "R42" (at 55.88 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 55.88 165.1 0)
@@ -6200,9 +6005,6 @@
     (pin "1" (uuid 2fb83059-f351-4edf-8a3c-6d42eb61ca27))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R42") (unit 1)
         )
@@ -6213,7 +6015,7 @@
   (symbol (lib_id "Device:R_US") (at 58.42 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec0d07ee-f124-48a4-a9fc-d0001db5c898)
-    (property "Reference" "R2" (at 60.96 99.06 0)
+    (property "Reference" "R44" (at 60.96 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7" (at 60.96 101.6 0)
@@ -6229,9 +6031,6 @@
     (pin "1" (uuid 872f6324-09b6-43d8-9688-3641f4c29bd8))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R44") (unit 1)
         )
@@ -6317,7 +6116,7 @@
   (symbol (lib_id "Device:R_US") (at 209.55 134.62 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f42f88c4-de1d-48b0-bab3-da78a5786703)
-    (property "Reference" "R2" (at 209.55 128.27 90)
+    (property "Reference" "R62" (at 209.55 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3.3k" (at 209.55 130.81 90)
@@ -6333,9 +6132,6 @@
     (pin "1" (uuid 63e33daf-e8f0-4502-9e57-159cf34a3550))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "R2") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "R62") (unit 1)
         )
@@ -6371,7 +6167,7 @@
   (symbol (lib_id "Device:Q_NPN_EBC") (at 165.1 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc5777ed-8d56-4943-bdc1-990207924f2b)
-    (property "Reference" "Q1" (at 170.18 130.81 0)
+    (property "Reference" "Q20" (at 170.18 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N4401" (at 170.18 133.35 0)
@@ -6388,9 +6184,6 @@
     (pin "1" (uuid 0e8fd628-5083-47b1-ba6e-216baba550ba))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
-          (reference "Q1") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
           (reference "Q20") (unit 1)
         )

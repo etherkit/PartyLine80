@@ -3220,7 +3220,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 68.58 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47a28145-f1f7-4e91-9f7d-f67cd98bd177)
-    (property "Reference" "TP8" (at 71.12 91.948 0)
+    (property "Reference" "TP11" (at 71.12 91.948 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AF LPF Input" (at 71.12 94.488 0)
@@ -3235,9 +3235,6 @@
     (pin "1" (uuid 9c7cc2dc-6162-477d-9304-5cbe4b10ba2c))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
-          (reference "TP8") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
           (reference "TP11") (unit 1)
         )
@@ -3654,7 +3651,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 15.24 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68cd216c-177c-464a-903e-902a974e15f7)
-    (property "Reference" "TP8" (at 17.78 56.388 0)
+    (property "Reference" "TP10" (at 17.78 56.388 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AF Feedback Amp Input" (at 17.78 58.928 0)
@@ -3669,9 +3666,6 @@
     (pin "1" (uuid afd5746a-a438-4d6b-a941-3985dd3c6bc1))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
-          (reference "TP8") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
           (reference "TP10") (unit 1)
         )
@@ -5066,7 +5060,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 138.176 100.584 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c42481c6-4dd2-4051-82e4-b675a2a5464f)
-    (property "Reference" "TP8" (at 139.7 96.012 0)
+    (property "Reference" "TP12" (at 139.7 96.012 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AF PA Input" (at 139.7 98.552 0)
@@ -5081,9 +5075,6 @@
     (pin "1" (uuid 766c40c2-c58d-4490-9798-d066ae04b08a))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
-          (reference "TP8") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
           (reference "TP12") (unit 1)
         )
@@ -5442,7 +5433,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 58.42 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e52cc5fc-2044-4bde-9fac-b6051ff16bdf)
-    (property "Reference" "TP8" (at 60.96 23.368 0)
+    (property "Reference" "TP9" (at 60.96 23.368 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Crystal Filter Input" (at 60.96 25.908 0)
@@ -5457,9 +5448,6 @@
     (pin "1" (uuid 3fb501b0-a4f0-45bb-be6b-6ed991a0099b))
     (instances
       (project "PartyLine80"
-        (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/b7bb4922-3f83-4fe7-b552-685e81511d4b"
-          (reference "TP8") (unit 1)
-        )
         (path "/b5844e62-3e3b-42e9-bb77-207602f5ec8e/10258d8b-bf3e-4721-8c4f-caff16e423d7"
           (reference "TP9") (unit 1)
         )
